@@ -1,11 +1,7 @@
 import { Document, InferSchemaType, Schema, model } from 'mongoose';
 
 const ContactSchema = new Schema({
-  firstName: {
-    type: String,
-    required: true,
-  },
-  lastName: {
+  name: {
     type: String,
     required: true,
   },
